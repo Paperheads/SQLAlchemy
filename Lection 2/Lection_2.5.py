@@ -30,10 +30,10 @@ class Vehicle(BaseModel):
     vehicle_details: Union[Car, Motorcycle, Truck]
 
 
-example_1 = Vehicle(owner="Alice", vehicle_details=Car(make="BMW", model="S",
+example_1 = Vehicle(owner="Sow", vehicle_details=Car(make="BMW", model="S",
                                            seat_count=5))
 
-example_2 = Vehicle(owner="Alice", vehicle_details=Motorcycle(make="HD", model="Softail",
+example_2 = Vehicle(owner="Davyd", vehicle_details=Motorcycle(make="HD", model="Softail",
                                                   has_sidecar=False))
 
 print(example_1)
